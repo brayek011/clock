@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Time </title>
+
+    <link rel="icon" href="img/logo.jpg" />
+    <link rel="shortcut" href="img/logo.jpg" />
+    <link rel="apple-touche-icon" href="img/logo.jpg" />
+
+
+    <meta name="description" content="site web"/>
+    <meta name="keywords" content="developer"/>
+    <meta name="author" content="Selmi Mabrouk"/>
+
+
+    <!-- Pour partage cette page sur Facebbok :  -->
+    <meta property="og:title" content="Selmi Mabrouk " />
+    <meta property="og:description" content="Développeur Web & Mobile" />
+    <meta property="og:image" content="img/logo.jpg" />
+    <meta property="og:image:width" content="1200" />  
+    <meta property="og:image:height" content="630"/>
+    <meta property="og:type" content="website" /> 
+
+
+<!-- Pour partage cette page sur twitter :  -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Selmi Mabrouk ">
+    <meta name="twitter:description" content="Selmi Mabrouk - Développeur Web & Mobile">
+    <meta name="twitter:image" content="par blogger">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@">
+
+  
+
+
+<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+  rel="stylesheet"
+/>
+
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+
+<!-- Relation une fichier css avec html !!!-->
+<link rel="stylesheet" href="style.css"/> 
+         
+ </head>
+
+<body id="body"> 
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+
+  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="justify-content: flex-start;"> 
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="index.html">Home </a>
+        <a class="nav-item nav-link" href="https://m.facebook.com/Brayek011">About Me</a>
+        <!-- <a class="nav-item nav-link" href="#">Projects</a> -->
+        <!-- <a class="nav-item nav-link" href="#">Contact</a> -->
+      </div>
+    </div>
+
+
+    <a class="navbar-brand" href="https://m.facebook.com/Brayek011" > Selmi Mabrouk
+        <img src="img/mon-img.PNG" width="30" height="30" class="d-inline-block align-top" style="border-radius: 60%;" >
+        
+      </a>
+
+  </nav>
+
+
+
+
+  <div class="alert alert-warning" role="alert" style="margin-top: 58px; height: 55px; " >
+    
+    <p  id="text" > Digital Clock </p> 
+
+
+
+  </div>
+
+ 
+
+<main id="out_box" >
+
+    <main id="in_box" >
+
+
+      <article id="time" >
+
+        <!-- <p id="set_time" > 12:48: <label>00</label>  </p> -->
+
+        <!-- <div id="set_time" > 12:48: <label>  00 </label> </div> -->
+        <p id="set_time" style=" width: 200px; height: 140px;" > 12:48:  </p> 
+        <label id="xx" style=" width: 70px; height: 140px;" >  00 </label>
+      </article>
+
+
+
+
+      <article id="date">
+
+        <p id="set_date" > 07-04-1992  </p>
+
+      </article>
+
+
+
+
+      <article id="color">
+
+        <input id="set_color" type="color" onchange="get_col()">   </input>
+
+      </article>
+
+
+
+
+    </main>
+
+
+
+</main>
+
+
+<footer style="margin-top: 600px;" > 
+
+<div class="card text-center">
+  <div class="card-header" id="tra_about">
+    About Us
+  </div>
+  <div class="card-body">
+    <h5 class="card-title" id="tra_ing">I am from Tunisia and I work as a computer Industrial and IT engineer</h5>
+    
+    <a href="mailto: mabrouk.selmi.92@gmail.com" class="btn btn-primary" id="tra_contact">Contact Us</a>
+  </div>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2021 Copyright:
+    <a class="text-dark" href="https://m.facebook.com/Brayek011">Selmi Mabrouk</a>
+  </div>
+</div>
+
+
+
+</footer> 
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="script.js" >  </script>
+
+</body>
+</html>
